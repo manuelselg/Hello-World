@@ -265,13 +265,14 @@ def main():
         trip_duration_stats(df)
 
         user_stats(df)
+# change the shown data to 10 rows per query, should improve the ability of the analysis 
 
         user_input = input('\nWhat would you like to do next?\nPlease enter yes or no\n').lower()
         if user_input in ('yes', 'y'):
             i = 0
         while True:
-            print(df.iloc[i:i+5])
-            i += 5
+            print(df.iloc[i:i+10])
+            i += 10
         more_data = input('Would you like to see more data? Please enter yes or no: ').lower()
         if more_data not in ('yes', 'y'):
             break
