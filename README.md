@@ -9,8 +9,11 @@ This project is part of the data science with Python course. Assignment 3 requir
 
 ### Files used
 bikeshare.py
+
 washington.csv
+
 chicago.csv
+
 new_york_city.csv
 
 ### Credits
