@@ -4,12 +4,15 @@ import pandas as pd
 
 import numpy as np
 
+# Import of the CSV Data 
 
 CITY_DATA = { 'chicago': 'chicago.csv',
 
 'new york city': 'new_york_city.csv',
 
 'washington': 'washington.csv' }
+
+# defining cities, months and days 
 
 cities = ['chicago', 'new york city', 'washington']
 
