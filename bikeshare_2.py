@@ -276,11 +276,12 @@ def main():
         more_data = input('Would you like to see more data? Please enter yes or no: ').lower()
         if more_data not in ('yes', 'y'):
             break
+  # updated the restart function to have some selection opportunitites 
 
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
-
-        if restart.lower() != 'yes':
-
+        restart = choice("\nWould you like to restart?\n\n[y]Yes\n[n]No\n\n>")
+        
+        if restart.lower() != 'y':
+         
             break
 
         if __name__ == "__main__":
